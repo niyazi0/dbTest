@@ -1,15 +1,113 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "student": [
+    {
+      "id": 1,
+      "name": "Niyazi",
+      "surname": "ÖZTÜRK",
+      "identityNumber":"12345678910",
+      "city": "Ankara",
+      "eMail":"niyazi@test.com" 
+    
+    },
+    {
+      "id": 2,
+      "name": "Ahmet",
+      "surname": "Ceylan",
+      "identityNumber":"12345678912",
+      "city": "İstanbul",
+      "eMail":"ahmet@test.com" 
+    
+    },
+    {
+      "id": 3,
+      "name": "Merve",
+      "surname": "Kılıç",
+      "identityNumber":"12345678914",
+      "city": "İzmir",
+      "eMail":"merve@test.com" 
+    
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "card": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "cardBalance": 30
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "cardBalance": 0
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "cardBalance": 15
+    }
   ],
-  "profile": [
-    { "name": "typicode"},
-  {"name": "Niyazi"}
+  "market": [
+    {
+      "id": 1,
+      "product": "Çikolata",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "product": "Süt",
+      "price": 9
+    },
+    {
+      "id": 3,
+      "product": "Elma",
+      "price": 5.5
+    }    
+  ],
+  "food": [
+    {
+      "id": 1,
+      "product": "Çorba",
+      "price": 4
+    },
+    {
+      "id": 2,
+      "product": "Ana Yemek",
+      "price": 9
+    },
+    {
+      "id": 3,
+      "product": "Salata",
+      "price": 3.5
+    },
+    {
+      "id": 4,
+      "product": "İçecek",
+      "price": 2
+    }     
+  ],
+    "library": [
+    {
+      "id": 1,
+      "bookName": "Çalı Kuşu",
+      "author": "Reşat Nuri Güntekin",
+      "stock": 3
+    },
+    {
+      "id": 2,
+      "bookName": "Tutunamayanlar",
+      "author": "Oğuz Atay",
+      "stock": 1
+    },
+    {
+      "id": 3,
+      "bookName": "Devlet Ana",
+      "author": "Kemal Tahir",
+      "stock": 3
+    },
+        {
+      "id": 4,
+      "bookName": "Dokuzuncu Hariciye Koğuşu",
+      "author": "Peyami Safa",
+      "stock": 2
+    }
   ]
 }
