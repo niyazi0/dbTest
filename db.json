@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Niyazi",
-      "surname": "ÖZTÜRK",
+      "surname": "Öztürk",
       "identityNumber":"12345678910",
       "city": "Ankara",
       "eMail":"niyazi@test.com" 
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Merve",
-      "surname": "Kılıç",
+      "surname": "Demir",
       "identityNumber":"12345678914",
       "city": "İzmir",
       "eMail":"merve@test.com" 
